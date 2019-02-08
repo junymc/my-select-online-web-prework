@@ -10,8 +10,8 @@ def my_select(collection)
  array# your code here!
 end
 
-
-# my_select([1,2,3,4]).select do
-#   |n| n == even
-#   puts n
+# ex)call to select even number
+# my_select(collection) do |num|
+#   num.even?
 # end
+#  => [2, 4]
