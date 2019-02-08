@@ -6,6 +6,7 @@ def my_select(collection)
    array << collection[i]
    i = i + 1
  end
+ end
  array# your code here!
 end
 
