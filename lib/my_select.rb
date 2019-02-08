@@ -10,6 +10,6 @@ end
 
 
 my_select([1,2,3,4]).select do
-  |n| n == even 
+  |n| n == even
   puts n
 end
